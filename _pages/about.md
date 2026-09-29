@@ -3,20 +3,20 @@ layout: page
 title: About the concerts
 permalink: /about
 comments: false
+about_intro: This is what the concerts do.
+mapping:
+  latitude: 51.101
+  longitude: 0.1
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
-
-<p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Sunt ad in velit elit animi aliquip occaecat laborum distinctio et cillum. Illum assumenda ullamco et exercitation occaecat amet odio qui cillum dolor.</p>
-
-<p>Et molestias dolor labore et facere. Omnis do repellendus omnis id placeat cupidatat cupidatat. Dolores ea rerum quas assumenda dolorum quibusdam. Pariatur distinctio et lorem et pariatur eiusmod voluptas sint sit in.</p>
-
-<p>Rerum dolore harum consectetur ex nihil culpa assumenda voluptate eiusmod exercitation temporibus autem. At excepturi anim dolore distinctio velit incididunt quos dolorum. Exercitation odio magna animi minim cupiditate.</p>
-
-
-
+    <div class="about-intro">
+  {{ page.about_intro | markdownify }}
+    </div>
+    {% render_map %}
 </div>
+
 
 <div class="col-md-4">
 

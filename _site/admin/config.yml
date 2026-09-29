@@ -1,12 +1,74 @@
 # config.yml
+# when using the default proxy server port
+local_backend: true
 
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+media_folder: 'assets/images'
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'concerts'
+    label: 'Concerts'
     folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
     fields:
-      - { name: Title }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Author', name: 'author', widget: 'hidden', default: 'CYACS' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image', }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Featured?', name: 'featured', widget: 'boolean', default: false, required: false }
+      - { label: 'Hide from all concerts?', name: 'hidden', widget: 'boolean', default: false, required: false}
+      - label: 'Artist(s)'
+        name: 'tags'
+        widget: 'list'
+        required: false
+        field:
+          label: Name
+          name: tags
+          widget: string
+      - label: 'Categories'
+        name: 'categories'
+        widget: 'list'
+        required: false
+        field:
+          label: Category
+          name: category
+          widget: string
+      - label: 'Add map?'
+        name: 'mapping'
+        widget: 'object'
+        required: false
+        fields:
+          - label: 'Latitude'
+            name: 'latitude'
+            widget: 'number'
+            value_type: "float"
+          - label: 'Longitude'
+            name: 'longitude'
+            widget: 'number'
+            value_type: "float"
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: Pages
+    files:
+      - name: about
+        label: About page
+        file: _pages/about.md
+        fields:
+          - label: Layout
+            name: layout
+            widget: hidden
+            default: page
+
+          - label: Title
+            name: title
+            widget: string
+
+          - label: About intro
+            name: about_intro
+            widget: markdown

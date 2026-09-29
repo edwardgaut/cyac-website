@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="/mediumish-theme-jekyll/assets/images/logo.png">
+<link rel="icon" href="/assets/images/logo.png">
 
 <title>About the concerts | Canterbury Young Artist Concert Series</title>
 
@@ -15,24 +15,24 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A free concert series for young artists, kindly hosted by St Paul’s Church, Canterbury." />
 <meta name="twitter:description" property="og:description" content="A free concert series for young artists, kindly hosted by St Paul’s Church, Canterbury." />
-<link rel="canonical" href="http://localhost:4000/mediumish-theme-jekyll/about" />
-<meta property="og:url" content="http://localhost:4000/mediumish-theme-jekyll/about" />
+<link rel="canonical" href="http://localhost:4000/about" />
+<meta property="og:url" content="http://localhost:4000/about" />
 <meta property="og:site_name" content="Canterbury Young Artist Concert Series" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="About the concerts" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A free concert series for young artists, kindly hosted by St Paul’s Church, Canterbury.","headline":"About the concerts","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/mediumish-theme-jekyll/assets/images/logo-dark.png"}},"url":"http://localhost:4000/mediumish-theme-jekyll/about"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A free concert series for young artists, kindly hosted by St Paul’s Church, Canterbury.","headline":"About the concerts","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo-dark.png"}},"url":"http://localhost:4000/about"}</script>
 <!-- End Jekyll SEO tag -->
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-<link href="/mediumish-theme-jekyll/assets/css/screen.css" rel="stylesheet">
+<link href="/assets/css/screen.css" rel="stylesheet">
 
-<link href="/mediumish-theme-jekyll/assets/css/main.css" rel="stylesheet">
+<link href="/assets/css/main.css" rel="stylesheet">
 
-<script src="/mediumish-theme-jekyll/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
 
 </head>
 
@@ -54,8 +54,8 @@
     <div class="container pr-0">
 
     <!-- Begin Logo -->
-    <a class="navbar-brand" href="/mediumish-theme-jekyll/">
-    <img src="/mediumish-theme-jekyll/assets/images/logo-dark.png" alt="Canterbury Young Artist Concert Series">
+    <a class="navbar-brand" href="/">
+    <img src="/assets/images/logo-dark.png" alt="Canterbury Young Artist Concert Series">
     </a>
     <!-- End Logo -->
 
@@ -72,14 +72,14 @@
                 
                 <li class="nav-item">
                 
-                <a class="nav-link" href="/mediumish-theme-jekyll/index.html">Concerts</a>
+                <a class="nav-link" href="/index.html">Concerts</a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="/mediumish-theme-jekyll/about">About</a>
+                <a class="nav-link" href="/about">About</a>
                 </li>
 
-                <script src="/mediumish-theme-jekyll/assets/js/lunr.js"></script>
+                <script src="/assets/js/lunr.js"></script>
 
 
 <style>
@@ -99,7 +99,7 @@
     <ul></ul>
 </div>
 
-<script src="/mediumish-theme-jekyll/assets/js/lunrsearchengine.js"></script>
+<script src="/assets/js/lunrsearchengine.js"></script>
 
             </ul>
 
@@ -136,16 +136,13 @@
     <div class="article-post">
     <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
+    <div class="about-intro">
+  <p>This is what the concerts do.</p>
 
-<p>Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Sunt ad in velit elit animi aliquip occaecat laborum distinctio et cillum. Illum assumenda ullamco et exercitation occaecat amet odio qui cillum dolor.</p>
-
-<p>Et molestias dolor labore et facere. Omnis do repellendus omnis id placeat cupidatat cupidatat. Dolores ea rerum quas assumenda dolorum quibusdam. Pariatur distinctio et lorem et pariatur eiusmod voluptas sint sit in.</p>
-
-<p>Rerum dolore harum consectetur ex nihil culpa assumenda voluptate eiusmod exercitation temporibus autem. At excepturi anim dolore distinctio velit incididunt quos dolorum. Exercitation odio magna animi minim cupiditate.</p>
-
-
-
+    </div>
+    <div id="jekyll-mapping" style="height:400px;width:600px;"></div>
 </div>
+
 
 <div class="col-md-4">
 
@@ -164,6 +161,95 @@
 
     
 </section>
+
+<div class="mapwidget">
+
+    
+            <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+<script type="text/javascript">
+var jekyllMapping = (function () {
+    'use strict';
+    var settings;
+    var obj = {
+        plotArray: function(locations) {
+            function jekyllMapListen (m, s) {
+                if (s.link) {
+                    m.events.register('click', m, function() {
+                        window.location.href = s.link;
+                    });
+                }
+            }
+            var s, l, m, bounds = new OpenLayers.Bounds();
+            while (locations.length > 0) {
+                s = locations.pop();
+                l = new OpenLayers.LonLat(s.longitude, s.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
+                m = new OpenLayers.Marker(l)
+                this.markers.addMarker(m)
+                bounds.extend(l);
+                jekyllMapListen(m, s);
+            }
+            this.map.zoomToExtent(bounds);
+        },
+        indexMap: function () {
+            this.plotArray(settings.pages);
+        },
+        pageToMap: function () {
+            if (typeof(settings.latitude) !== 'undefined' && typeof(settings.longitude) !== 'undefined') {
+                this.center = new OpenLayers.LonLat(settings.longitude, settings.latitude).transform( new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913"));
+                this.map.setCenter(this.center, settings.zoom);
+                this.markers.addMarker(new OpenLayers.Marker(this.center));
+            }     
+
+            if (settings.locations instanceof Array) {
+                this.plotArray(settings.locations);
+            }
+            
+            if (settings.layers) {
+                while (settings.layers.length > 0){
+                    var m = new OpenLayers.Layer.Vector("KML", {
+                            strategies: [new OpenLayers.Strategy.Fixed()],
+                            protocol: new OpenLayers.Protocol.HTTP({
+                                url: settings.layers.pop(),
+                                format: new OpenLayers.Format.KML({
+                                    extractStyles: true,
+                                    extractAttributes: true,
+                                    maxDepth: 2
+                                })
+                            })
+                        });
+                    this.map.addLayer(m)
+                }
+            }
+        },
+        mappingInitialize: function (set) {
+            settings = set;
+
+            this.markers = new OpenLayers.Layer.Markers("Markers"),
+            this.map = new OpenLayers.Map("jekyll-mapping");
+            this.map.addLayer(new OpenLayers.Layer.OSM());
+            this.map.addLayer(this.markers);
+
+            if (settings.pages) {
+                this.indexMap();
+            } else {
+                this.pageToMap();
+            }
+        }        
+    };
+    return obj;
+}());
+</script>
+
+    
+    
+    
+            <script type="text/javascript">
+                window.onload = function () { jekyllMapping.mappingInitialize({"provider":"openstreetmap","zoom":8,"dimensions":{"width":600,"height":400},"latitude":51.101,"longitude":0.1}) };
+            </script>
+    
+    
+
+</div>
 </div>
 
 
@@ -171,7 +257,7 @@
 ================================================== -->
 <div class="alertbar">
 	<div class="container text-center">
-		<span><img src="/mediumish-theme-jekyll/assets/images/logo-dark.png" alt="Canterbury Young Artist Concert Series"> &nbsp; Find out about upcoming concerts by subscribing to our newly launched <b>newsletter</b></span>
+		<span><img src="/assets/images/logo-dark.png" alt="Canterbury Young Artist Concert Series"> &nbsp; Find out about upcoming concerts by subscribing to our newly launched <b>newsletter</b></span>
         <form action="" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
             <div class="mc-field-group">
             <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
@@ -197,7 +283,7 @@
             
             
                 
-                    <a class="mt-1 mb-1" href="/mediumish-theme-jekyll/categories#Summer-Term-2026">Summer Term 2026 (1)</a>
+                    <a class="mt-1 mb-1" href="/categories#Summer-2026">Summer 2026 (1)</a>
                 
             
             
@@ -231,11 +317,11 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-<script src="/mediumish-theme-jekyll/assets/js/mediumish.js"></script>
+<script src="/assets/js/mediumish.js"></script>
 
 
 
-<script src="/mediumish-theme-jekyll/assets/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
 
 
 

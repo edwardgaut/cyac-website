@@ -775,7 +775,7 @@ iframe {
         padding: 0;
         height: 350px;
         border-radius: 0;
-         background-color: #42664746;
+         background-color: #36363646;
     }
 
     .jumbotron.fortags .col-md-4 {
@@ -792,7 +792,7 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-color: #42664746;
+    background-color: #36363646;
 }
 
 .jumbotron.fortags a {
@@ -897,4 +897,20 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+.mapwidget {
+    width: 100%;
+    max-width: 100%;
+}
+
+#jekyll-mapping {
+    width: 100% !important;
+    height: 400px;
+}
+
+@media (max-width: 600px) {
+    #jekyll-mapping {
+        height: 300px;
+    }
 }

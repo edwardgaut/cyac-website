@@ -1,34 +1,34 @@
 
 var documents = [{
     "id": 0,
-    "url": "http://localhost:4000/mediumish-theme-jekyll/404.html",
+    "url": "http://localhost:4000/404.html",
     "title": "404",
     "body": "404 Page does not exist!Please use the search bar at the top or visit our homepage! "
     }, {
     "id": 1,
-    "url": "http://localhost:4000/mediumish-theme-jekyll/about",
+    "url": "http://localhost:4000/about",
     "title": "About the concerts",
-    "body": "Lorem ipsum dolor sit amet consectetur adipiscing elit ut. Sunt ad in velit elit animi aliquip occaecat laborum distinctio et cillum. Illum assumenda ullamco et exercitation occaecat amet odio qui cillum dolor. Et molestias dolor labore et facere. Omnis do repellendus omnis id placeat cupidatat cupidatat. Dolores ea rerum quas assumenda dolorum quibusdam. Pariatur distinctio et lorem et pariatur eiusmod voluptas sint sit in. Rerum dolore harum consectetur ex nihil culpa assumenda voluptate eiusmod exercitation temporibus autem. At excepturi anim dolore distinctio velit incididunt quos dolorum. Exercitation odio magna animi minim cupiditate. Buy me a coffeeThank you for your support! Your donation helps me to maintain and improve Mediumish . Buy me a coffee Documentation"
+    "body": "   This is what the concerts do.     Buy me a coffeeThank you for your support! Your donation helps me to maintain and improve Mediumish . Buy me a coffee Documentation"
     }, {
     "id": 2,
-    "url": "http://localhost:4000/mediumish-theme-jekyll/categories",
+    "url": "http://localhost:4000/categories",
     "title": "Categories",
     "body": ""
     }, {
     "id": 3,
-    "url": "http://localhost:4000/mediumish-theme-jekyll/",
+    "url": "http://localhost:4000/",
     "title": "Home",
-    "body": "      Featured:                                                                                                                                                                                                           Stephen Beale                              :               Music by Ravel, Finzi and Strauss. :                                                                       21 May 2026                                                                                      All Concerts:                                                                                                     Stephen Beale              :       Music by Ravel, Finzi and Strauss. :                               21 May 2026                            "
+    "body": "      Featured:                                                                                                                                                                                                           Stephen Beale                              :               Music by Ravel, Finzi and Strauss. Test:                                                                       21 May 2026 at 13:00                                                                                      All:                                                                                                     Stephen Beale              :       Music by Ravel, Finzi and Strauss. Test:                               21 May 2026 at 13:00                            "
     }, {
     "id": 4,
-    "url": "http://localhost:4000/mediumish-theme-jekyll/robots.txt",
+    "url": "http://localhost:4000/robots.txt",
     "title": "",
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 5,
-    "url": "http://localhost:4000/mediumish-theme-jekyll/stephen-beale/",
+    "url": "http://localhost:4000/2026-05-21-stephen-beale/",
     "title": "Stephen Beale",
-    "body": "2026/05/21 - Music by Ravel, Finzi and Strauss. "
+    "body": "2026/05/21 - Music by Ravel, Finzi and Strauss. Test "
     }];
 
 var idx = lunr(function () {

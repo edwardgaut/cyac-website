@@ -3,13 +3,18 @@ name: "Canterbury Young Artist Concert Series"
 title: "Canterbury Young Artist Concert Series"
 description: "A free concert series for young artists, kindly hosted by St Paul's Church, Canterbury."
 logo: 'assets/images/logo-dark.png'
-favicon: 'assets/images/logo-dark.png'
-baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
+favicon: 'assets/images/favicon.ico'
+baseurl: ""
 mailchimp-list: ''
 include: ["_pages"]
-permalink: /:title/
+permalink: /:year-:month-:day-:title/
+
+mapping:
+    provider: openstreetmap
+    zoom: 8
+    dimensions:
+      width: 600
+      height: 400
 
 # Authors
 authors:

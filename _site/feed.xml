@@ -3,24 +3,26 @@
   <channel>
     <title>Canterbury Young Artist Concert Series</title>
     <description>A free concert series for young artists, kindly hosted by St Paul&apos;s Church, Canterbury.</description>
-    <link>http://localhost:4000/mediumish-theme-jekyll/</link>
-    <atom:link href="http://localhost:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Sep 2026 14:54:27 +0100</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2026 14:54:27 +0100</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 29 Sep 2026 12:13:52 +0100</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 12:13:52 +0100</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
     
       <item>
         <title>Stephen Beale</title>
-        <description>&lt;p&gt;Music by Ravel, Finzi and Strauss.&lt;/p&gt;
+        <description>&lt;p&gt;Music by Ravel, Finzi and Strauss. Test&lt;/p&gt;
+
+&lt;div id=&quot;jekyll-mapping&quot; style=&quot;height:400px;width:600px;&quot;&gt;&lt;/div&gt;
 </description>
-        <pubDate>Thu, 21 May 2026 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/mediumish-theme-jekyll/stephen-beale/</link>
-        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/stephen-beale/</guid>
+        <pubDate>Thu, 21 May 2026 13:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2026-05-21-stephen-beale/</link>
+        <guid isPermaLink="true">http://localhost:4000/2026-05-21-stephen-beale/</guid>
         
-        <category>Joe Bloggs</category>
+        <category>Stephen Beale</category>
         
         
-        <category>Summer Term 2026</category>
+        <category>Summer 2026</category>
         
       </item>
     
