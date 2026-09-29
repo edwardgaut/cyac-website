@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Canterbury Young Artist Concert Series</title>
+    <description>A free concert series for young artists, kindly hosted by St Paul&apos;s Church, Canterbury.</description>
+    <link>http://localhost:4000/mediumish-theme-jekyll/</link>
+    <atom:link href="http://localhost:4000/mediumish-theme-jekyll/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Sep 2026 14:54:27 +0100</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2026 14:54:27 +0100</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Stephen Beale</title>
+        <description>&lt;p&gt;Music by Ravel, Finzi and Strauss.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 May 2026 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/mediumish-theme-jekyll/stephen-beale/</link>
+        <guid isPermaLink="true">http://localhost:4000/mediumish-theme-jekyll/stephen-beale/</guid>
+        
+        <category>Joe Bloggs</category>
+        
+        
+        <category>Summer Term 2026</category>
+        
+      </item>
+    
+  </channel>
+</rss>

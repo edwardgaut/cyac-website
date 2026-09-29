@@ -1,0 +1,64 @@
+# Site
+name: "Canterbury Young Artist Concert Series"
+title: "Canterbury Young Artist Concert Series"
+description: "A free concert series for young artists, kindly hosted by St Paul's Church, Canterbury."
+logo: 'assets/images/logo-dark.png'
+favicon: 'assets/images/logo-dark.png'
+baseurl: /mediumish-theme-jekyll
+google_analytics: 'UA-46278016-1'
+disqus: 'demowebsite'
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  CYACS:
+    name: CYACS
+    display_name: Admin    
+    avatar: 'assets/images/avatar.png'
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: ""
+    twitter: ""
+    description: "Posted by admin."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
