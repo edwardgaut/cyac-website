@@ -3,8 +3,8 @@
 local_backend: false
 
 backend:
-  name: github
-  repo: edwardgaut/cyac-website
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/images'
 collections:
   - name: 'concerts'
