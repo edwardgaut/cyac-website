@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "http://localhost:4000/",
     "title": "Home",
-    "body": "      Featured:                                                                                                                                                                                                                 Stephen Beale                              :               Music by Ravel, Finzi and Strauss. Test:                                                                       21 May 2026 at 13:00                                                                                      All:                                                                                                     Lydia South              :       Frauenliebe-und-leben and other songs:                               10 September 2026 at 13:00                                                                                                                     Stephen Beale              :       Music by Ravel, Finzi and Strauss. Test:                               21 May 2026 at 13:00                            "
+    "body": "      Featured:                           All:                                                                                                     Lydia South              :       Frauenliebe-und-leben and other songs:                               10 September 2026 at 13:00                                                                                                                     Stephen Beale              :       Music by Ravel, Finzi and Strauss. Test:                               21 May 2026 at 13:00                            "
     }, {
     "id": 4,
     "url": "http://localhost:4000/robots.txt",
