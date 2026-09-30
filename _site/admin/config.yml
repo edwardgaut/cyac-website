@@ -1,11 +1,12 @@
 # config.yml
 # when using the default proxy server port
-local_backend: true
+local_backend: false
 
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'assets/images'
+public_folder: '/assets/images'
 collections:
   - name: 'concerts'
     label: 'Concerts'

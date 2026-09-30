@@ -5,9 +5,44 @@
     <description>A free concert series for young artists, kindly hosted by St Paul&apos;s Church, Canterbury.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Sep 2026 12:53:40 +0100</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2026 12:53:40 +0100</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2026 14:25:34 +0100</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2026 14:25:34 +0100</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Lydia South</title>
+        <description>&lt;h3 id=&quot;frauenliebe-und-leben-and-other-songs&quot;&gt;Frauenliebe-und-leben and other songs&lt;/h3&gt;
+
+&lt;p&gt;Lydia South, Soprano&lt;/p&gt;
+
+&lt;p&gt;Oliver C F Jones, Piano&lt;/p&gt;
+
+&lt;h3 id=&quot;programme&quot;&gt;Programme&lt;/h3&gt;
+
+&lt;p&gt;Johannes Brahms - Von Ewiger Liebe&lt;/p&gt;
+
+&lt;p&gt;Richard Strauss - Meinem Kinde&lt;/p&gt;
+
+&lt;p&gt;Richard Strauss - Cäcilie&lt;/p&gt;
+
+&lt;p&gt;Richard Strauss - Allerseelen&lt;/p&gt;
+
+&lt;p&gt;Robert Schumann - Frauenliebe-und-leben&lt;/p&gt;
+
+&lt;p&gt;Richard Strauss - Morgen&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Sep 2026 13:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2026-09-10-lydia-south/</link>
+        <guid isPermaLink="true">http://localhost:4000/2026-09-10-lydia-south/</guid>
+        
+        <category>Lydia South </category>
+        
+        <category>Oliver C F Jones</category>
+        
+        
+        <category>Autumn 2026</category>
+        
+      </item>
     
       <item>
         <title>Stephen Beale</title>

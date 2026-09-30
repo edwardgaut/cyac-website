@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "http://localhost:4000/",
     "title": "Home",
-    "body": "      Featured:                                                                                                                                                                                                           Stephen Beale                              :               Music by Ravel, Finzi and Strauss. Test:                                                                       21 May 2026 at 13:00                                                                                      All:                                                                                                     Stephen Beale              :       Music by Ravel, Finzi and Strauss. Test:                               21 May 2026 at 13:00                            "
+    "body": "      Featured:                                                                                                                                                                                                                 Stephen Beale                              :               Music by Ravel, Finzi and Strauss. Test:                                                                       21 May 2026 at 13:00                                                                                      All:                                                                                                     Lydia South              :       Frauenliebe-und-leben and other songs:                               10 September 2026 at 13:00                                                                                                                     Stephen Beale              :       Music by Ravel, Finzi and Strauss. Test:                               21 May 2026 at 13:00                            "
     }, {
     "id": 4,
     "url": "http://localhost:4000/robots.txt",
@@ -26,6 +26,11 @@ var documents = [{
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 5,
+    "url": "http://localhost:4000/2026-09-10-lydia-south/",
+    "title": "Lydia South",
+    "body": "2026/09/10 - Frauenliebe-und-leben and other songs: Lydia South, Soprano Oliver C F Jones, Piano Programme: Johannes Brahms - Von Ewiger Liebe Richard Strauss - Meinem Kinde Richard Strauss - Cäcilie Richard Strauss - Allerseelen Robert Schumann - Frauenliebe-und-leben Richard Strauss - Morgen "
+    }, {
+    "id": 6,
     "url": "http://localhost:4000/2026-05-21-stephen-beale/",
     "title": "Stephen Beale",
     "body": "2026/05/21 - Music by Ravel, Finzi and Strauss. Test "
