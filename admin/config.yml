@@ -1,6 +1,6 @@
 # config.yml
 # when using the default proxy server port
-local_backend: true
+local_backend: false
 
 backend:
   name: git-gateway
