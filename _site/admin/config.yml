@@ -47,9 +47,11 @@ collections:
           - label: 'Latitude'
             name: 'latitude'
             widget: 'number'
+            required: false
             value_type: "float"
           - label: 'Longitude'
             name: 'longitude'
+            required: false
             widget: 'number'
             value_type: "float"
       - { label: 'Body', name: 'body', widget: 'markdown' }
