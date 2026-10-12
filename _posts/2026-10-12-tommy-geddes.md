@@ -5,7 +5,7 @@ title: Tommy Geddes
 description: Tenor Delights
 image: /assets/images/screenshot-2026-10-12-at-12.50.43.png
 date: 2026-10-12T12:47:00.000+01:00
-featured: false
+featured: true
 hidden: false
 tags:
   - Tommy Geddes
