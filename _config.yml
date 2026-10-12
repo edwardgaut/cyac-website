@@ -5,9 +5,10 @@ description: "A free concert series for young artists, kindly hosted by St Paul'
 logo: 'assets/images/logo-dark.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ""
-mailchimp-list: ''
+mailchimp-list: 'https://protonmail.us11.list-manage.com/subscribe/post?u=27b7ea64bbc9a23cf8277c9b5&amp;id=a1e5de3656&amp;f_id=008e02e0f0'
 include: ["_pages"]
 permalink: /:year-:month-:day-:title/
+future: true
 
 mapping:
     provider: openstreetmap

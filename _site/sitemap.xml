@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2026-05-21-stephen-beale/</loc>
-<lastmod>2026-05-21T13:00:00+01:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/2026-09-10-lydia-south/</loc>
 <lastmod>2026-09-10T13:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2026-10-12-tommy-geddes/</loc>
+<lastmod>2026-10-12T12:47:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2026-10-15-orlando-barton-hodges/</loc>
+<lastmod>2026-10-15T13:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about</loc>
@@ -19,9 +23,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/category/summer-2026/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/category/autumn-2026/</loc>
