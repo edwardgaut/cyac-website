@@ -5,9 +5,40 @@
     <description>A free concert series for young artists, kindly hosted by St Paul&apos;s Church, Canterbury.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Oct 2026 22:49:42 +0100</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2026 22:49:42 +0100</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2026 22:59:49 +0100</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2026 22:59:49 +0100</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Tommy Geddes</title>
+        <description>&lt;h3 id=&quot;tenor-delights&quot;&gt;Tenor Delights&lt;/h3&gt;
+
+&lt;h4 id=&quot;tommy-geddes---tenor&quot;&gt;Tommy Geddes - Tenor&lt;/h4&gt;
+
+&lt;h4 id=&quot;robin-walker---piano&quot;&gt;Robin Walker - Piano&lt;/h4&gt;
+
+&lt;h3 id=&quot;programme-to-include&quot;&gt;Programme to include:&lt;/h3&gt;
+
+&lt;p&gt;Il Mio Tesoro Intanto - W.A Mozart&lt;/p&gt;
+
+&lt;p&gt;Um Mitternacht - Gustav Mahler&lt;/p&gt;
+
+&lt;p&gt;Phidylé - Henri Duparc&lt;/p&gt;
+
+&lt;p&gt;Nacht - Alban Berg&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Nov 2026 13:00:00 +0000</pubDate>
+        <link>http://localhost:4000/2026-11-12-tommy-geddes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2026-11-12-tommy-geddes/</guid>
+        
+        <category>Tommy Geddes</category>
+        
+        <category>Robin Walker</category>
+        
+        
+        <category>Autumn 2026</category>
+        
+      </item>
     
       <item>
         <title>Orlando Barton Hodges</title>
@@ -39,44 +70,13 @@
 
 &lt;p&gt;In Flanders - Ivor Gurney&lt;/p&gt;
 </description>
-        <pubDate>Thu, 15 Oct 2026 13:00:00 +0100</pubDate>
-        <link>http://localhost:4000/2026-10-15-orlando-barton-hodges/</link>
-        <guid isPermaLink="true">http://localhost:4000/2026-10-15-orlando-barton-hodges/</guid>
+        <pubDate>Mon, 12 Oct 2026 13:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2026-10-12-orlando-barton-hodges/</link>
+        <guid isPermaLink="true">http://localhost:4000/2026-10-12-orlando-barton-hodges/</guid>
         
         <category>Orlando Barton Hodges</category>
         
         <category>Oliver C F Jones</category>
-        
-        
-        <category>Autumn 2026</category>
-        
-      </item>
-    
-      <item>
-        <title>Tommy Geddes</title>
-        <description>&lt;h3 id=&quot;tenor-delights&quot;&gt;Tenor Delights&lt;/h3&gt;
-
-&lt;h4 id=&quot;tommy-geddes---tenor&quot;&gt;Tommy Geddes - Tenor&lt;/h4&gt;
-
-&lt;h4 id=&quot;robin-walker---piano&quot;&gt;Robin Walker - Piano&lt;/h4&gt;
-
-&lt;h3 id=&quot;programme-to-include&quot;&gt;Programme to include:&lt;/h3&gt;
-
-&lt;p&gt;Il Mio Tesoro Intanto - W.A Mozart&lt;/p&gt;
-
-&lt;p&gt;Um Mitternacht - Gustav Mahler&lt;/p&gt;
-
-&lt;p&gt;Phidylé - Henri Duparc&lt;/p&gt;
-
-&lt;p&gt;Nacht - Alban Berg&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Oct 2026 12:47:00 +0100</pubDate>
-        <link>http://localhost:4000/2026-10-12-tommy-geddes/</link>
-        <guid isPermaLink="true">http://localhost:4000/2026-10-12-tommy-geddes/</guid>
-        
-        <category>Tommy Geddes</category>
-        
-        <category>Robin Walker</category>
         
         
         <category>Autumn 2026</category>

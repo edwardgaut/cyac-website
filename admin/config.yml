@@ -1,6 +1,7 @@
 # config.yml
 # when using the default proxy server port
 local_backend: false
+timezone: Europe/London
 
 backend:
   name: git-gateway

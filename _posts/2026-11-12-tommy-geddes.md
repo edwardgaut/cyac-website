@@ -4,8 +4,8 @@ author: CYACS
 title: Tommy Geddes
 description: Tenor Delights
 image: /assets/images/screenshot-2026-10-12-at-12.50.43.png
-date: 2026-10-12T12:47:00.000+01:00
-featured: true
+date: 2026-11-12T13:00:00.000+00:00
+featured: false
 hidden: false
 tags:
   - Tommy Geddes

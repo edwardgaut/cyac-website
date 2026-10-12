@@ -9,6 +9,7 @@ mailchimp-list: 'https://protonmail.us11.list-manage.com/subscribe/post?u=27b7ea
 include: ["_pages"]
 permalink: /:year-:month-:day-:title/
 future: true
+timezone: Europe/London
 
 mapping:
     provider: openstreetmap

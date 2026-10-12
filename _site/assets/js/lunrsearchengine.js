@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "http://localhost:4000/",
     "title": "Home",
-    "body": "      Featured:                                 All:                                                                                                     Orlando Barton Hodges              :       A Journey In English Song:                               15 October 2026 at 13:00                                                                                                                     Tommy Geddes              :       Tenor Delights:                               12 October 2026 at 12:47                                                                                                                     Lydia South              :       Frauenliebe-und-leben and other songs:                               10 September 2026 at 13:00                            "
+    "body": "      Featured:                                                                                                                                                                                                                 Orlando Barton Hodges                              :               A Journey In English Song:                                                                       12 October 2026 at 13:00                                                                                            All:                                                                                                     Tommy Geddes              :       Tenor Delights:                               12 November 2026 at 13:00                                                                                                                     Orlando Barton Hodges              :       A Journey In English Song:                               12 October 2026 at 13:00                                                                                                                     Lydia South              :       Frauenliebe-und-leben and other songs:                               10 September 2026 at 13:00                            "
     }, {
     "id": 4,
     "url": "http://localhost:4000/robots.txt",
@@ -26,14 +26,14 @@ var documents = [{
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 5,
-    "url": "http://localhost:4000/2026-10-15-orlando-barton-hodges/",
-    "title": "Orlando Barton Hodges",
-    "body": "2026/10/15 - A Journey In English Song: Orlando Barton Hodges - Baritone: Oliver C F Jones - Piano: Programme: Autumn Twilight - Peter Warlock The Cloths of Heaven - Rebecca Clarke It was a lover and his lass - Gerald Finzi Twilight Fancies - Frederick Delius Blow, blow, thou Winter Wind - Roger Quilter Silent Noon - Ralph Vaughan Williams When I Am Dead, My Dearest - Ralph Vaughan Williams Blow, blow, thou winter wind - Madeleine Dring Sleep - Ivor Gurney In Flanders - Ivor Gurney "
+    "url": "http://localhost:4000/2026-11-12-tommy-geddes/",
+    "title": "Tommy Geddes",
+    "body": "2026/11/12 - Tenor Delights: Tommy Geddes - Tenor: Robin Walker - Piano: Programme to include:: Il Mio Tesoro Intanto - W. A Mozart Um Mitternacht - Gustav Mahler Phidylé - Henri Duparc Nacht - Alban Berg "
     }, {
     "id": 6,
-    "url": "http://localhost:4000/2026-10-12-tommy-geddes/",
-    "title": "Tommy Geddes",
-    "body": "2026/10/12 - Tenor Delights: Tommy Geddes - Tenor: Robin Walker - Piano: Programme to include:: Il Mio Tesoro Intanto - W. A Mozart Um Mitternacht - Gustav Mahler Phidylé - Henri Duparc Nacht - Alban Berg "
+    "url": "http://localhost:4000/2026-10-12-orlando-barton-hodges/",
+    "title": "Orlando Barton Hodges",
+    "body": "2026/10/12 - A Journey In English Song: Orlando Barton Hodges - Baritone: Oliver C F Jones - Piano: Programme: Autumn Twilight - Peter Warlock The Cloths of Heaven - Rebecca Clarke It was a lover and his lass - Gerald Finzi Twilight Fancies - Frederick Delius Blow, blow, thou Winter Wind - Roger Quilter Silent Noon - Ralph Vaughan Williams When I Am Dead, My Dearest - Ralph Vaughan Williams Blow, blow, thou winter wind - Madeleine Dring Sleep - Ivor Gurney In Flanders - Ivor Gurney "
     }, {
     "id": 7,
     "url": "http://localhost:4000/2026-09-10-lydia-south/",
