@@ -1,9 +1,25 @@
 ---
 layout: page
-title: About the concerts
+title: About CYACS
 permalink: /about
 comments: false
-about_intro: This is what the concerts do.
+about_intro: >-
+  WHO WE ARE 
+
+
+  CYACS was founded in the spring of 2026. We are a concert series designed to promote young talent in classical music connected to Canterbury and Kent, though we are occasionally joined by guests from further afield. It was founded by our Artistic Director Oliver C F Jones, who frequently appears as an accompanist in the series and is still unable comfortably to write about himself in the third person. 
+
+
+  THIS WEBSITE
+
+
+  On this website you may find records of previous and upcoming concerts, including repertoire and artists, as well as sign up for our mailing list, which is used to update you about forthcoming events, ensuring that you never miss a note!
+
+
+  CREDITS 
+
+
+  We are exceedingly grateful to St Paul's Church for their immense kindness in allowing us to use their beautiful space and to Mr Edward Gaut for his work in designing this website.
 mapping:
   latitude: 51.101
   longitude: 0.1
