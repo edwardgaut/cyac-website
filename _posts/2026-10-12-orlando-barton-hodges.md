@@ -10,6 +10,8 @@ hidden: false
 tags:
   - Orlando Barton Hodges
   - Oliver C F Jones
+categories:
+  - Autumn 2026
 ---
 ### A Journey In English Song
 
